@@ -1,41 +1,41 @@
 
 .one{
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("../../assets/img/talk.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("/assets/img/talk.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 .two{
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("../../assets/img/6.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("/assets/img/6.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 .three{
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("../../assets/img/talk.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("/assets/img/talk.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 .four{
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("../../assets/img/7.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("/assets/img/7.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 .five{
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("../../assets/img/3.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("/assets/img/3.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 .six{
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("../../assets/img/1.JPG");
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("/assets/img/1.JPG");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
