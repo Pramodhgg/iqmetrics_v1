@@ -1,0 +1,84 @@
+section {
+  padding: 100px 40px 100px 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0)),
+    url("../../assets/img/contact2.jpg");
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+  color: #fff;
+}
+mat-form-field mat-label {
+  font-size: 12px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.main {
+  margin-top: 20px;
+}
+.main h1 {
+  color: #fff !important;
+}
+
+.main p {
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.home-btn {
+  padding: 8px 50px;
+  font-size: 10px;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 20px;
+  background: none;
+  color: #fff;
+  border: 1px solid #14213d;
+  transition: 0.5s ease-in;
+}
+
+.home-btn:hover {
+  box-shadow: inset 150px 0 0 0.01px #fff;
+  color: #14213d;
+}
+
+.heading {
+  margin-bottom: 50px;
+}
+
+.paddings {
+  margin-bottom: 30px;
+}
+
+mat-spinner {
+  margin: 0 auto;
+  color: #f1a208;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 100;
+  display: inline-block;
+  color: #fff;
+}
+
+.check {
+  color: green;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.success_message_holder {
+  margin-top: 50px;
+  margin-left: 50px;
+}

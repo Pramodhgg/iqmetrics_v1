@@ -1,0 +1,155 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: "Saira", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: "Saira", sans-serif !important;
+}
+
+.section-padding {
+  padding-top: 100px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* section{
+    height: 100vh;
+} */
+
+.wrapper {
+  padding: 20px;
+}
+
+.evntHeading {
+  margin-top: 20px;
+  padding: 0 20px;
+  display: inline-block;
+}
+.Heading {
+  display: inline-block;
+}
+.evntHeading h1 {
+  font-size: 40px;
+  font-weight: 200;
+  color: black;
+  letter-spacing: 2px;
+}
+
+button:focus,
+button:active:focus,
+button.active:focus {
+  outline: none !important;
+  outline-style: none !important;
+}
+.mat-form-field-appearance-outline .mat-form-field-outline-thick {
+  color: rgb(0, 0, 0, 0.2) !important;
+}
+
+.main h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  color: #14213d;
+}
+.main h1 span {
+  color: #f1a208;
+  font-weight: 400;
+  font-size: 40px;
+}
+.mat-form-field-appearance-legacy .mat-form-field-underline {
+  background-color: rgba(255, 255, 255) !important;
+}
+.mat-form-field-appearance-legacy .mat-form-field-label {
+  /* color: rgba(0,0,0); */
+}
+
+.mat-checkbox-label {
+  font-size: 12px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255);
+}
+.mat-checkbox-frame {
+  border-color: #f1a208;
+}
+
+.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background,
+.mat-checkbox-checked.mat-accent .mat-checkbox-background {
+  background-color: #f1a208;
+}
+
+.mat-progress-spinner circle,
+.mat-spinner circle {
+  stroke: #f1a208 !important;
+}
+.mat-input-element::placeholder {
+  color: white;
+  font-size: 10px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+label span.mat-form-field-required-marker {
+  color: #f1a208;
+}
+.modal-content {
+  margin: 100px auto;
+}
+.modal-dialog {
+  max-width: 650px !important;
+  margin: 1.75rem auto;
+}
+.modal-body {
+  border-bottom: none !important;
+  color: #14213d;
+  padding: 2rem 1rem 1rem 1rem !important;
+  text-align: justify;
+}
+button.close {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  position: absolute;
+  top: 2px;
+  right: 10px;
+  color: #f1a208;
+}
+.mat-typography p {
+ 
+}
+
+
+@media (max-width: 517px) {
+  .mat-checkbox-label {
+    font-size: 10px !important;
+  }
+  br {
+    display: inline-block;
+  }
+
+}
+@media (min-width: 518px) {
+  br {
+    display: none;
+  }
+
+}

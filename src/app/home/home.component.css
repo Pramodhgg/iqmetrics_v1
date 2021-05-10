@@ -1,0 +1,330 @@
+  
+  img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .image-holder, .text-holder{
+    display: inline-block;
+    height: 500px;
+    width: auto;
+  }
+
+  .cert{
+    height: auto !important;
+  }
+
+
+  .login {
+    padding: 20px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .login h1 {
+    font-weight: 600;
+    font-size: 45px;
+    letter-spacing: 5px;
+    display: inline;
+    margin-left: 66px;
+    color: #14213d;
+  }
+
+  .login h2 {
+    margin-top: 18px;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: "Dancing Script", cursive !important;
+    margin-left: 66px;
+    color: #14213d;
+  }
+
+  .title-holder{
+    background-color: #f1a208;
+    height: 120px;
+    padding: 10px 0;
+    margin-top: 15px;
+  }
+
+  .corousel-holder{
+    margin: 20px auto 0 auto;
+  }
+
+  .text-holder{
+    height: 300px;
+    position: absolute;
+    background: #14213d;
+    top: 60px;
+  }
+  .inner-paddding{
+    margin: 100px auto;
+  }
+  .inner-paddding p{
+    font-size: 18px;
+    line-height: initial;
+    letter-spacing: 1px;
+    text-align: justify;
+    font-weight: 400;
+    color: #fff;
+  }
+  .button-holder{
+    text-align: center;
+  }
+  .left-button, .right-button{
+    display: inline-block;
+    margin: 0px 40px;
+  }
+  .small-but{
+    margin: 60px 70px;
+  }
+  fa-icon{
+    font-size: 25px;
+  }
+
+  /* =========================================
+                arrow down
+  ============================================ */
+  #arrow-down {
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    color: #e85d04;
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    margin-left: -16px;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  #arrow-down .icon {
+    height: 100%;
+    font-size: 40px;
+  }
+
+  /* large devices (Desktops and Laptops) */
+
+  @media (min-width: 1200px) {
+
+  }
+
+  @media (min-width: 1200px) and (max-width: 1225px) {
+
+  }
+
+  /* Medium devices (Landscape tablets & Medium Desktops) */
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .login h2{
+      font-size: 45px;
+    }
+    .inner-paddding p{
+      font-size: 16px;
+    }
+  }
+
+  /* Small devices (Potrait tablets & small Desktops) */
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .login h2{
+      font-size: 35px;
+    }
+    .inner-paddding p{
+      font-size: 16px;
+    }
+    .inner-paddding{
+      margin: 75px auto;
+    }
+  }
+
+
+
+  @media (min-width: 700px) and (max-width: 767px) {
+    .login h1{
+      margin-left: 88px;
+    }
+    .login h2{
+      font-size: 28px;
+      margin-left: 42px;
+    }
+    .inner-paddding p{
+      font-size: 15px;
+    }
+    .image-holder, .text-holder{
+      display: block;
+    }
+    .text-holder{
+      height: auto;
+      position: unset;
+      background: #14213d;
+      top: 2px;
+    }
+    .small-but{
+      margin: 0;
+    }
+    .inner-paddding{
+      margin: 0;
+    }
+  }
+  @media (min-width: 623px) and (max-width: 699px) {
+    .login h1{
+      margin-left: 60px;
+    }
+    .login h2{
+      font-size: 26px;
+      margin-left: 42px;
+    }
+    .inner-paddding p{
+      font-size: 15px;
+    }
+    .image-holder, .text-holder{
+      display: block;
+    }
+    .text-holder{
+      height: auto;
+      position: unset;
+      background: #14213d;
+      top: 2px;
+    }
+    .small-but{
+      margin: 0;
+    }
+    .inner-paddding{
+      margin: 0;
+    }
+  }
+
+  @media (min-width: 601px) and (max-width: 622px) {
+    .login h1{
+      font-size: 40px;
+      margin-left: 64px;
+    }
+    .login h2{
+      font-size: 26px;
+      margin-left: 42px;
+    }
+    .inner-paddding p{
+      font-size: 15px;
+    }
+    .image-holder, .text-holder{
+      display: block;
+    }
+    .text-holder{
+      height: auto;
+      position: unset;
+      background: #14213d;
+      top: 2px;
+    }
+    .small-but{
+      margin: 0;
+    }
+    .inner-paddding{
+      margin: 0;
+    }
+  
+  }
+  @media (min-width: 516px) and (max-width: 600px) {
+    .login h1{
+      font-size: 33px;
+      margin-left: 64px;
+    }
+    .login h2{
+      font-size: 20px;
+      margin-left: 42px;
+    }
+    .inner-paddding p{
+      font-size: 15px;
+    }
+    .image-holder, .text-holder{
+      display: block;
+    }
+    .text-holder{
+      height: auto;
+      position: unset;
+      background: #14213d;
+      top: 2px;
+    }
+    .small-but{
+      margin: 0;
+    }
+    .inner-paddding{
+      margin: 0;
+    } .title-holder{
+      margin-top: 6px;
+    }
+  }
+  /* Extra Small devices (Landscape phone & potrait Tablets) */
+
+  @media (min-width: 450px) and (max-width: 516px) {
+    .login h1{
+      margin-left:49px;
+      font-size: 30px;
+    }
+    .login h2{
+      font-size: 17px;
+      margin-left: 40px;
+    }
+    .inner-paddding p{
+      font-size: 14px;
+    }
+    .image-holder, .text-holder{
+      display: block;
+    }
+    .text-holder{
+      height: auto;
+      position: unset;
+      background: #14213d;
+      top: 2px;
+    }
+    .small-but{
+      margin: 0;
+    }
+    .inner-paddding{
+      margin: 0;
+    }
+    .title-holder{
+      margin-top: 6px;
+    }
+  }
+
+  @media (max-width: 449px) {
+    .login h1{
+      margin-left:40px;
+      font-size: 28px;
+    }
+    .login h2{
+      font-size: 16px;
+      margin-left: 38px;
+    }
+    .inner-paddding p{
+      font-size: 14px;
+    }
+    .image-holder, .text-holder{
+      display: block;
+    }
+    .text-holder{
+      height: auto;
+      position: unset;
+      background: #14213d;
+      top: 2px;
+    }
+    .small-but{
+      margin: 0;
+    }
+    .inner-paddding{
+      margin: 0;
+    }
+    .title-holder{
+      margin-top: 6px;
+    }
+  }
+
+
+
+
+
+
+
+

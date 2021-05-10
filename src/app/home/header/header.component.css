@@ -1,0 +1,190 @@
+
+.one{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("../../../assets/img/talk.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.two{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("../../../assets/img/6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.three{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("../../../assets/img/talk.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.four{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("../../../assets/img/7.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.five{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("../../../assets/img/3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.six{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("../../../assets/img/1.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.holder h1{
+    text-align: left;
+    position: absolute;
+    top: 35%;
+    left: 68px;
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    z-index: 999;
+}
+.holder span{
+    color: #f1a208 ;
+}
+.holder h2 {
+    margin-top: 18px;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: "Dancing Script", cursive !important;
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 68px;
+    z-index: 999;
+  }
+
+  /* large devices (Desktops and Laptops) */
+
+  @media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1225px) {
+
+}
+
+/* Medium devices (Landscape tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.holder h1{
+    left: 15px;
+}
+  .holder h2{
+    font-size: 45px;
+    left: 15px;
+  }
+}
+
+/* Small devices (Potrait tablets & small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .holder h1{
+        left: 15px;
+        font-size: 65px;
+    }
+  .holder h2{
+    font-size: 35px;
+    left: 15px;
+  }
+}
+
+
+
+@media (min-width: 700px) and (max-width: 767px) {
+  .holder h1{
+    left: 15px;
+    font-size: 55px;
+  }
+  .holder h2{
+    font-size: 28px;
+    left: 15px;
+  }
+
+}
+@media (min-width: 623px) and (max-width: 699px) {
+  .holder h1{
+    left: 15px;
+    font-size: 45px;
+  }
+  .holder h2{
+    font-size: 26px;
+    left: 15px;
+  }
+  
+}
+
+@media (min-width: 601px) and (max-width: 622px) {
+  .holder h1{
+    font-size: 40px;
+    left: 12px;
+
+  }
+  .holder h2{
+    font-size: 26px;
+    left: 12px;
+    
+  }
+  
+}
+@media (min-width: 516px) and (max-width: 600px) {
+  .holder h1{
+    font-size: 40px;
+    left: 10px;
+  }
+  .holder h2{
+    font-size: 20px;
+    left: 10px;
+    margin-top: 0;
+    top: 40%;
+  }
+  
+}
+/* Extra Small devices (Landscape phone & potrait Tablets) */
+
+@media (min-width: 450px) and (max-width: 516px) {
+  .holder h1{
+    font-size: 28px;
+    left: 10px;    
+
+  }
+  .holder h2{
+    font-size: 16px;
+    left: 10px;
+    margin-top: 0;
+    top: 40%;
+  }
+  
+}
+
+@media (max-width: 449px) {
+  .holder h1{
+    font-size: 28px;
+    left: 10px;
+
+  }
+  .holder h2{
+    font-size: 16px;
+    left: 10px;
+    margin-top: 0;
+    top: 40%;
+  }
+  
+}

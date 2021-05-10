@@ -1,0 +1,67 @@
+<section class="foooter-section">
+  <div class="container footer-container">
+    <div class="row">
+      <div class="col-lg-4 footer">
+        <li class="lists">
+          <h2>Services</h2>
+          <ul>
+            <li><a>R & D Services</a></li>
+            <li><a>Skill development programme</a></li>
+            <li><a>Career Counselling Services</a></li>
+            <li><a>Engineering Process outsourcing</a></li>
+            <li><a>Buisness Process outsourcing</a></li>
+            <li><a>Digital Printing Services</a></li>
+          </ul>
+        </li>
+      </div>
+      <div class="col-lg-4 footer">
+        <li class="lists">
+          <h2>Support</h2>
+          <ul>
+            <li><a>About us</a></li>
+            <li><a>Events</a></li>
+            <li><a>Teams</a></li>
+            <li><a>contact us</a></li>
+            <li>
+              <a (click)="open(content)" style="cursor: pointer">
+                <h2>Careers</h2>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </div>
+      <div class="col-lg-4 footer">
+        <li class="lists">
+          <h2>Address</h2>
+          <ul>
+            <li><a>IQmetrics Solutions Pvt ltd,</a></li>
+            <li><a>Hegde Towers, opp. St.Agnes College(Autonomous),</a></li>
+            <li><a>Bendoor, Mangalore, Karnataka 575002</a></li>
+          </ul>
+        </li>
+      </div>
+
+      <div class="col-lg-12">
+        <div class="footer-rights">
+          <p style="text-align: center">
+            All rights reserved by &copy;IQmetrics <span>Solution</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.4676124824864!2d74.85487861482105!3d12.877625390917563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba35bda212355d5%3A0xf6d22b3a24850c80!2sIQmetrics%20Solutions%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1616416648904!5m2!1sen!2sin"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+  <ng-template #content let-c="close" let-d="dismiss">
+    <div class="modal-body body-one">
+      <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <p>
+        For career opportunities drop your updated CV to mail Id:
+        <span>info@iqmetrics.in</span>
+      </p>
+    </div>
+  </ng-template>
+</section>

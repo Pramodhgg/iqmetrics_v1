@@ -1,0 +1,125 @@
+<section id="team">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-2 col-sm-2 mobile-left">
+        <div class="left-container">
+          <div class="letter1">
+            <p>T</p>
+          </div>
+          <div class="letter2">
+            <p>E</p>
+          </div>
+          <div class="letter3">
+            <p>A</p>
+          </div>
+          <div class="letter4">
+            <p>M</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-9 col-md-10 col-sm-10 mobile-right">
+        <div class="right-container">
+          <owl-carousel-o [options]="customOptions">
+            <ng-container>
+              <ng-template carouselSlide>
+                <div class="row">
+                  <div class="col-lg-3 col-md-4 col-sm-4 mobile-right-image">
+                    <img src="../../assets/img/1 pp_white.jpg" />
+                  </div>
+                  <div class="col-lg-9 col-md-8 col-sm-8 mobile-right-bio">
+                    <div class="detail-holder">
+                      <div class="heading">
+                        <h2>Mr. Padma Prasada</h2>
+                        <span>Director & CEO</span>
+                        <p (click)="open(content)">View profile</p>
+                      </div>
+                      <p>
+                        <!-- Mr. Padma Prasada has received Master degree in VLSI
+                        Design and Embedded Systems Specialisation from NMAMIT,
+                        Nitte. Research interest focuses on Embedded System
+                        Design and Machine Learning Applications. His passion
+                        for generating employments in the rural parts of the
+                        country and keep up the make in India with upgrading
+                        skill sets in younger minds drove him to start new
+                        startup venture. He is having vast experience in
+                        academics and innovative activities, has published 7
+                        research articles in reputed International Journals
+                        including Springer, ACM, IEEE, attended many National
+                        and International Conferences. Served as Technical
+                        Programme Committee Member for 10+ International
+                        Conferences. Guided more than 15 Innovative Projects for
+                        National level Innovative Design Contests like KPIT
+                        Sparkle, India Innovation Design Challenge, Unisys Cloud
+                        20/20, Anveshana etc. He has delivered invited talk at
+                        several occasions, he has been invited for keynote
+                        address during 8th Annual Conference of AnalytiX 2021 to
+                        be held at Osaka,Japan on May 19-21, 2021. -->
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row padding">
+                  <div class="col-lg-3 col-md-4 col-sm-4 mobile-right-image">
+                    <img src="../../assets/img/aj.jpg" />
+                  </div>
+                  <div class="col-lg-9 col-md-8 col-sm-8 mobile-right-bio">
+                    <div class="detail-holder">
+                      <div class="heading">
+                        <h2>Mr. Ajay Prinston Pinto</h2>
+                        <span>Director & CTO</span>
+                        <p (click)="openTwo(contentTwo)">View profile</p>
+                      </div>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </ng-template>
+            </ng-container>
+          </owl-carousel-o>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ng-template #content let-c="close" let-d="dismiss">
+    <div class="modal-body body-one">
+      <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <p>
+        Mr. Padma Prasada has received Master degree in VLSI Design and Embedded
+        Systems Specialisation from NMAMIT, Nitte. Research interest focuses on
+        Embedded System Design and Machine Learning Applications. His passion
+        for generating employments in the rural parts of the country and keep up
+        the make in India with upgrading skill sets in younger minds drove him
+        to start new startup venture. He is having vast experience in academics
+        and innovative activities, has published 7 research articles in reputed
+        International Journals including Springer, ACM, IEEE, attended many
+        National and International Conferences. Served as Technical Programme
+        Committee Member for 10+ International Conferences. Guided more than 15
+        Innovative Projects for National level Innovative Design Contests like
+        KPIT Sparkle, India Innovation Design Challenge, Unisys Cloud 20/20,
+        Anveshana etc. He has delivered invited talk at several occasions, he
+        has been invited for keynote address during 8th Annual Conference of
+        AnalytiX 2021 to be held at Osaka,Japan on May 19-21, 2021.
+      </p>
+    </div>
+  </ng-template>
+  <ng-template #contentTwo let-c="close" let-d="dismiss">
+    <div class="modal-body">
+      <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <p>
+        Mr. Ajay Prinston Pinto, having a Post Grauate in Digital Electronics
+        and Communication System and Secured Third rank in the University. He
+        grew up in a family of teachers and his passion for helping others has
+        been evident in his involvement in his last Eight years of teaching
+        profession at Mangalore Institute of Technology and Engineering and
+        Srinias School of Engineering as Assistant Professor. His area of
+        interst are Embedded system, AI. Equipping students with a right skill
+        sets made him to think in a new prospective and moving in that
+        direction.
+      </p>
+    </div>
+  </ng-template>
+</section>

@@ -1,0 +1,190 @@
+section {
+  height: 12vh;
+  background-color: black;
+}
+
+.image {
+  background-image: linear-gradient(rgb(0, 0, 255, 0.7), rgb(0, 0, 0, 0.9)),
+    url("../../assets/img/machine.jpg");
+  background-size: cover;
+}
+
+.jumbotron {
+  padding: 12rem 2rem;
+  color: #fff;
+}
+
+.jumbotron h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #fff !important;
+}
+fa-icon {
+  color: gold;
+  cursor: pointer;
+}
+
+.holder {
+  padding: 10px 0;
+}
+
+.holder h2 {
+  font-size: 30px;
+}
+
+.holder p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.inner_padding {
+  padding: 10px 0px;
+}
+.list {
+  list-style: none;
+}
+.sublist {
+  margin-left: 100px;
+  list-style: circle;
+}
+
+.body {
+  margin: 50px;
+  box-shadow: none;
+}
+
+.curriculum-card {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.page {
+  position: absolute;
+  right: 0;
+  bottom: -2px;
+  font-size: 9px;
+}
+.userFrame {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  background: #f1a208;
+  border-radius: 100%;
+  position: relative;
+}
+
+.userNameTag {
+  display: inline-block;
+  position: absolute;
+  left: 35%;
+  right: 0;
+  top: 35%;
+  color: #fff;
+  letter-spacing: 4px;
+}
+
+.feedBackDetails h3 {
+  margin: 0;
+}
+
+.feedBackDetails p span {
+  font-size: 10px;
+}
+
+.feedBackDetails .comments {
+  margin-top: 30px;
+}
+
+.padding {
+  margin-bottom: 50px;
+}
+.home-btn {
+  padding: 8px 50px;
+  font-size: 10px;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 20px;
+  background: #14213d;
+  color: #fff;
+  border: 1px solid #14213d;
+}
+
+.home-btn:hover {
+  box-shadow: inset 150px 0 0 0 #f1a208;
+  color: #fff;
+}
+*/ .enrollCard {
+  width: 36%;
+  position: fixed;
+  top: 18%;
+  right: 0;
+  background-color: #ffffff;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22) !important;
+  visibility: hidden;
+}
+
+.mat-info-older h4 {
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: #f1a208;
+}
+.mat-info-older {
+  padding: 20px 0;
+}
+
+.toggler {
+  visibility: visible;
+}
+
+.form-holder {
+  margin-top: 20px;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.margin-left {
+  margin-left: 10px;
+}
+
+/* Medium devices (Landscape tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .body {
+    margin: 10px;
+  }
+}
+
+/* Small devices (Potrait tablets & small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .body {
+    margin: 10px;
+  }
+  .holder p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 956px) {
+  .body {
+    margin: 10px;
+  }
+  .holder p {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .jumbotron h1 {
+    font-size: 20px;
+  }
+  .jumbotron {
+    padding: 7rem 0rem !important;
+    color: #fff;
+  }
+  .holder h2 {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,736 @@
+.holder{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),url("../../assets/img/hr.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    margin-bottom: 100px;
+}
+
+.holder h1{
+    text-align: left;
+    position: absolute;
+    top: 35%;
+    left: 68px;
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.holder h2 {
+    margin-top: 18px;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: "Dancing Script", cursive !important;
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 68px;
+    z-index: 999;
+  }
+.holder span{
+    color: #f1a208 ;
+}
+.about{
+    font-size: 18px;
+    word-spacing: 2px;
+    line-height: initial;
+    text-align: justify;
+    font-weight: 500;
+}
+.slogan{
+    margin: 100px 0;
+    background: black;
+    padding: 10px;
+}
+.slogan h1{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    color: #fff;
+}
+.card{
+    display: inline-block;
+    margin: 13px;
+    padding: 10px;
+    border: 1px solid rgb(241, 162, 8)
+}
+.card_holder{
+    text-align: center;
+}
+.card:hover{
+    
+}
+.card h4{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+fa-icon{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    color: #f1a208;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+.what_we_do{
+    margin:110px 0 100px 0;
+    width: 100%;
+    display: inline-block;
+}
+.what_we_do h1{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    color: black;
+}
+#secondline{
+    margin-bottom: 50px;
+}
+.mission{
+    margin-bottom: 100px;
+}
+
+span{
+    color: rgb(241, 162, 8);
+}
+.slogan p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.mission h1, .vission h1, .delivery h1, .methodology h1, .project h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+}
+.faq{
+    margin-top: 100px;
+}
+.faqs{
+    margin-bottom: 100px;
+}
+.faq h1 span{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    color: red;
+    line-height: 40px;
+    
+}
+.faq h1{
+    text-align: center;
+}
+.mission p,
+.vission p{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.method_body{
+    margin-bottom: 100px;
+}
+.deliver_body h4, .method_body h4{
+    font-size: 20px;
+}
+.method_body h5{
+    font-size: 18px;
+    margin-top: 60px;
+}
+.deliver_body ul{
+    margin-top: 50px;
+}
+.deliver_body li{
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.deliver_body p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    text-align: justify;
+    margin-bottom: 100px;
+}
+
+#arrow{
+    display: inline-block;
+    width: auto;
+    top: -12px;
+    position: relative;
+    margin: 0 20px;
+}
+
+.leftone{
+    bottom: 0;
+    top: 115px !important;
+    right: 290px;
+}
+.leftwo{
+    bottom: 0;
+    position: relative;
+    left: 518px;
+}
+.lefthree{
+    left: 215px;
+}
+.rightflow{
+    float: right;
+    margin-right: 146px;
+}
+.rightflowtwo{
+    float: right;
+    margin-right: 147px;
+}
+.rightflowthree{
+    float: right;
+    margin-right: 100px;
+}
+.rightflowfour{
+    left: 350px;
+}
+
+#expansionpanel{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    box-shadow: 0 8px 6px -9px #f1a208 !important;
+}
+.question{
+    font-size: 18px;
+    letter-spacing: 1px;
+
+}
+.mat-expansion-panel-header {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 18px !important;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+#expansionpanel p,  #expansionpanel h1{
+    margin: 0 0 0px;
+    font-size: 14px ;
+    letter-spacing: 1px ;
+    text-align: justify ;
+    font-weight: 500 ;
+}
+#expansionpanel h1{
+    color: #14213d;
+    font-weight: 600 !important;
+    line-height: 15px;
+}
+
+
+
+/* Medium devices (Landscape tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .holder h1{
+        left: 15px;
+    }
+    .cardcommon{
+        display: block;
+        text-align: center;
+    }
+    .cardcommon h6{
+        font-size: 18px;
+    }
+    .leftone{
+        bottom: 0;
+        top: 0 !important;
+        right: 0;
+    }
+    .leftwo{
+        bottom: 0;
+        position: relative;
+        left: 0;
+    }
+    .lefthree{
+        left: 0;
+    }
+    .rightflow{
+        float: none;
+        margin-right: 0;
+    }
+    .rightflowtwo{
+        float: none;
+        margin-right: 13px;
+    }
+    .rightflowthree{
+        float: none;
+        margin-right: 13px;
+    }
+    .rightflowfour{
+        left: 0;
+    }
+    #arrow{
+        display: none;
+    }
+    .project_body{
+        padding: 0 150px;
+    }
+    
+    }
+    
+    /* Small devices (Potrait tablets & small Desktops) */
+    
+    @media (min-width: 768px) and (max-width: 991px) {
+        .holder h1{
+            left: 15px;
+            font-size: 65px;
+        }
+        .holder h2{
+            font-size: 45px;
+            left: 15px;
+          }
+        .cardcommon{
+            display: block;
+        }
+        .cardcommon{
+            display: block;
+            text-align: center;
+        }
+        .cardcommon h6{
+            font-size: 18px;
+        }
+        .leftone{
+            bottom: 0;
+            top: 0 !important;
+            right: 0;
+        }
+        .leftwo{
+            bottom: 0;
+            position: relative;
+            left: 0;
+        }
+        .lefthree{
+            left: 0;
+        }
+        .rightflow{
+            float: none;
+            margin-right: 0;
+        }
+        .rightflowtwo{
+            float: none;
+            margin-right: 13px;
+        }
+        .rightflowthree{
+            float: none;
+            margin-right: 13px;
+        }
+        .rightflowfour{
+            left: 0;
+        }
+        #arrow{
+            display: none;
+        }
+        .project_body{
+            padding: 0 150px;
+        }
+    }
+    
+    
+    
+    @media (min-width: 700px) and (max-width: 767px) {
+      .holder h1{
+        left: 15px;
+        font-size: 55px;
+      }
+      .holder h2{
+        font-size: 28px;
+        left: 15px;
+      }
+
+      .cardcommon{
+        display: block;
+    }
+    .cardcommon{
+        display: block;
+        text-align: center;
+    }
+    .cardcommon h6{
+        font-size: 18px;
+    }
+    .leftone{
+        bottom: 0;
+        top: 0 !important;
+        right: 0;
+    }
+    .leftwo{
+        bottom: 0;
+        position: relative;
+        left: 0;
+    }
+    .lefthree{
+        left: 0;
+    }
+    .rightflow{
+        float: none;
+        margin-right: 0;
+    }
+    .rightflowtwo{
+        float: none;
+        margin-right: 13px;
+    }
+    .rightflowthree{
+        float: none;
+        margin-right: 13px;
+    }
+    .rightflowfour{
+        left: 0;
+    }
+    #arrow{
+        display: none;
+    }
+    .project_body{
+        padding: 0 35px;
+    }
+    }
+    @media (min-width: 623px) and (max-width: 699px) {
+      .holder h1{
+        left: 15px;
+        font-size: 45px;
+      }
+      .holder h2{
+        font-size: 26px;
+        left: 15px;
+      }
+      .card{
+          display: block;
+      }
+      .cardcommon{
+        display: block;
+        text-align: center;
+    }
+    .cardcommon h6{
+        font-size: 18px;
+    }
+    .leftone{
+        bottom: 0;
+        top: 0 !important;
+        right: 0;
+    }
+    .leftwo{
+        bottom: 0;
+        position: relative;
+        left: 0;
+    }
+    .lefthree{
+        left: 0;
+    }
+    .rightflow{
+        float: none;
+        margin-right: 0;
+    }
+    .rightflowtwo{
+        float: none;
+        margin-right: 13px;
+    }
+    .rightflowthree{
+        float: none;
+        margin-right: 13px;
+    }
+    .rightflowfour{
+        left: 0;
+    }
+    #arrow{
+        display: none;
+    }
+    .project_body{
+        padding: 0 30px;
+    }
+    #expansionpanel{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+        box-shadow: 0 8px 6px -9px #f1a208 !important;
+    }
+      
+    }
+    
+    @media (min-width: 601px) and (max-width: 622px) {
+      .holder h1{
+        font-size: 40px;
+        left: 12px;
+    
+      }
+      .holder h2{
+        font-size: 26px;
+        left: 12px;
+      }
+      .card{
+        display: block;
+    }
+    .cardcommon{
+        display: block;
+        text-align: center;
+    }
+    .cardcommon h6{
+        font-size: 18px;
+    }
+    .leftone{
+        bottom: 0;
+        top: 0 !important;
+        right: 0;
+    }
+    .leftwo{
+        bottom: 0;
+        position: relative;
+        left: 0;
+    }
+    .lefthree{
+        left: 0;
+    }
+    .rightflow{
+        float: none;
+        margin-right: 0;
+    }
+    .rightflowtwo{
+        float: none;
+        margin-right: 13px;
+    }
+    .rightflowthree{
+        float: none;
+        margin-right: 13px;
+    }
+    .rightflowfour{
+        left: 0;
+    }
+    #arrow{
+        display: none;
+    }
+    .project_body{
+        padding: 0 30px;
+    }
+    #expansionpanel{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+        box-shadow: 0 8px 6px -9px #f1a208 !important;
+    }
+      
+    }
+    @media (min-width: 516px) and (max-width: 600px) {
+      .holder h1{
+        font-size: 40px;
+        left: 10px;
+      }
+      .holder h2{
+        font-size: 20px;
+        left: 10px;
+        margin-top: 0;
+        top: 40%;
+      }
+      .card{
+        display: block;
+    }
+    .cardcommon{
+        display: block;
+        text-align: center;
+    }
+    .cardcommon h6{
+        font-size: 18px;
+    }
+    .leftone{
+        bottom: 0;
+        top: 0 !important;
+        right: 0;
+    }
+    .leftwo{
+        bottom: 0;
+        position: relative;
+        left: 0;
+    }
+    .lefthree{
+        left: 0;
+    }
+    .rightflow{
+        float: none;
+        margin-right: 0;
+    }
+    .rightflowtwo{
+        float: none;
+        margin-right: 13px;
+    }
+    .rightflowthree{
+        float: none;
+        margin-right: 13px;
+    }
+    .rightflowfour{
+        left: 0;
+    }
+    #arrow{
+        display: none;
+    }
+    .project_body{
+        padding: 0 30px;
+    }
+    .deliver_body{
+        padding: 10px;
+    }
+    #expansionpanel{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+        box-shadow: 0 8px 6px -9px #f1a208 !important;
+    }
+      
+    }
+   /* Extra Small devices (Landscape phone & potrait Tablets) */
+
+@media (min-width: 450px) and (max-width: 516px) {
+    .holder h1{
+      font-size: 28px;
+      left: 10px;    
+    }
+    .holder h2{
+        font-size: 16px;
+        left: 10px;
+        margin-top: 0;
+        top: 40%;
+      }
+    .card{
+        display: block;
+    }
+    .cardcommon{
+        display: block;
+        text-align: center;
+    }
+    .cardcommon h6{
+        font-size: 18px;
+    }
+    .leftone{
+        bottom: 0;
+        top: 0 !important;
+        right: 0;
+    }
+    .leftwo{
+        bottom: 0;
+        position: relative;
+        left: 0;
+    }
+    .lefthree{
+        left: 0;
+    }
+    .rightflow{
+        float: none;
+        margin-right: 0;
+    }
+    .rightflowtwo{
+        float: none;
+        margin-right: 13px;
+    }
+    .rightflowthree{
+        float: none;
+        margin-right: 13px;
+    }
+    .rightflowfour{
+        left: 0;
+    }
+    #arrow{
+        display: none;
+    }
+    .project_body{
+        padding: 0 30px;
+    }
+    .deliver_body{
+        padding: 10px;
+    }
+    #expansionpanel{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+        box-shadow: 0 8px 6px -9px #f1a208 !important;
+    }
+      
+  }
+  
+  @media (min-width: 350px) and (max-width: 449px) {
+    .holder h1{
+      font-size: 28px;
+      left: 10px;
+  
+    }
+    .holder h2{
+      font-size: 16px;
+      left: 10px;
+      margin-top: 0;
+      top: 40%;
+    }
+    .card{
+        display: block;
+    }
+    .cardcommon{
+        display: block;
+        text-align: center;
+    }
+    .cardcommon h6{
+        font-size: 18px;
+    }
+    .leftone{
+        bottom: 0;
+        top: 0 !important;
+        right: 0;
+    }
+    .leftwo{
+        bottom: 0;
+        position: relative;
+        left: 0;
+    }
+    .lefthree{
+        left: 0;
+    }
+    .rightflow{
+        float: none;
+        margin-right: 0;
+    }
+    .rightflowtwo{
+        float: none;
+        margin-right: 13px;
+    }
+    .rightflowthree{
+        float: none;
+        margin-right: 13px;
+    }
+    .rightflowfour{
+        left: 0;
+    }
+    #arrow{
+        display: none;
+    }
+    .project_body{
+        padding: 0 25px;
+    }
+    .deliver_body{
+        padding: 10px;
+    }
+    #expansionpanel{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+        box-shadow: 0 8px 6px -9px #f1a208 !important;
+    }
+    #expansionpanel p, #expansionpanel h1{
+        font-size: 10px;
+    }
+    
+  }
+  @media (max-width: 349px) {
+    #expansionpanel p,  #expansionpanel h1{
+        font-size: 10px;
+    }
+  }
+  
+    
+

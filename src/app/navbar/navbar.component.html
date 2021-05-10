@@ -1,0 +1,29 @@
+<mat-card id="navbar" data-aos="fade-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1000"
+  [class.white-nav-top]="white_nav">
+  <mat-toolbar style="background: none !important;">
+    <a class="image">
+      <img src="../../assets/img/logo.png" />
+      <!-- <h1>LOGO</h1> -->
+    </a>
+    <ul id="nav" [class.mobile_nav]="mobile_nav">
+      <li (click)="toHome()"><a>Home</a></li>
+      <li (click)="toAboutUs()"><a>About us</a></li>
+      <li (click)="toServices()"><a>Services</a></li>
+      <li><a style="text-decoration: none;" [routerLink]="['/consultancy']">HR consultancy</a></li>
+      <li (click)="toContactUs()"><a>Contact us</a></li>
+    </ul>
+    <div class="mobileNav" (click)="showNav()">
+      <fa-icon [icon]="faBars"></fa-icon>
+    </div>
+  </mat-toolbar>
+</mat-card>
+<!-- <ul class="sidenav">
+  <li><a>Home</a></li>
+  <li><a>About us</a></li>
+  <li><a>Services</a></li>
+  <li><a>Contact us</a></li>
+  <li><a>Home</a></li>
+  <li><a>About us</a></li>
+  <li><a>Services</a></li>
+  <li><a>Contact us</a></li>
+</ul> -->

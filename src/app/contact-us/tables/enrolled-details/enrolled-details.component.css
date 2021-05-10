@@ -1,0 +1,79 @@
+section {
+  height: 12vh;
+  background-color: black;
+}
+.main {
+  position: absolute;
+  margin-top: 100px;
+  width: 100%;
+}
+.main h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  color: black;
+  margin-bottom: 40px;
+  font-weight: 900;
+  margin-left: 45px;
+}
+.main h1 span {
+  color: #f1a208;
+  font-weight: 900;
+  font-size: 42px;
+}
+input {
+  width: 100%;
+  outline: none;
+  border: none;
+}
+table {
+  width: 90%;
+  margin: 0 auto;
+}
+#name {
+  width: 20%;
+}
+#email {
+  width: 30%;
+}
+#designation,
+#number {
+  width: 10%;
+}
+#message {
+  width: 30%;
+}
+textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.main .xlButton {
+  float: right;
+  position: fixed;
+  /* right: 90px; */
+  /* top: 1%; */
+  right: 70px;
+  top: 20%;
+  cursor: pointer;
+  color: #f1a208;
+  font-weight: 600;
+}
+
+.main .search {
+  position: fixed;
+  right: 220px;
+  top: 20%;
+}
+
+.material-icons {
+  position: absolute;
+  left: -30px;
+}
+
+mat-paginator {
+  margin-right: 50px;
+}
+mat-spinner {
+  margin: 140px auto;
+}

@@ -1,0 +1,149 @@
+#team {
+  padding: 100px 0;
+  background-color: black;
+}
+
+.left-container p {
+  font-size: 100px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.letter1,
+.letter2 {
+  padding: 50px;
+}
+
+.letter4,
+.letter3 {
+  padding: 50px 38px;
+}
+
+.letter4 {
+  padding: 50px 30px;
+}
+
+.padding {
+  margin-top: 50px;
+}
+
+.right-container {
+  padding: 20px;
+}
+img {
+  width: 100%;
+}
+
+.detail-holder .heading h2 {
+  color: #fff;
+  margin: 0;
+  font-size: 25px;
+}
+.detail-holder .heading span {
+  color: #fff;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.heading {
+  margin: 60px 0;
+}
+.heading p {
+  margin-top: 30px;
+  font-weight: 100;
+  font-size: 12px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .letter1,
+  .letter2,
+  .letter3 {
+    padding: 50px 7px;
+  }
+  .letter4 {
+    padding: 50px 0;
+  }
+  .right-container {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .left-container p {
+    font-size: 50px;
+  }
+
+  .letter1,
+  .letter2 {
+    padding: 30px;
+  }
+
+  .letter3 {
+    padding: 30px 25px;
+  }
+  .letter4 {
+    padding: 30px 20px;
+  }
+  .heading {
+    margin: 15px 0;
+  }
+
+  .detail-holder .heading h2 {
+    font-size: 20px;
+  }
+
+  .detail-holder .heading span {
+    font-size: 12px;
+  }
+  .detail-holder .heading p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .left-container p {
+    font-size: 50px;
+  }
+  .mobile-left {
+    width: 20%;
+  }
+  .mobile-right {
+    width: 80%;
+  }
+  .mobile-right-image,
+  .mobile-right-bio {
+    width: 50%;
+  }
+  .letter1,
+  .letter2 {
+    padding: 28px;
+  }
+
+  .letter3 {
+    padding: 28px 23px;
+  }
+  .letter4 {
+    padding: 28px 18px;
+  }
+
+  .detail-holder .heading h2 {
+    font-size: 11px;
+  }
+  .detail-holder .heading span {
+    font-size: 11px;
+  }
+  .detail-holder .heading p {
+    font-size: 9px;
+  }
+  .heading {
+    margin: 0px;
+  }
+  .right-container {
+    padding: 20px;
+  }
+  .mobile-right-bio {
+    padding: 0;
+  }
+}

@@ -1,0 +1,8 @@
+/* large devices (Desktops and Laptops) */
+
+
+@media (min-width:1200px){
+    .Heading h3{
+       font-size: 5px;
+   }
+}

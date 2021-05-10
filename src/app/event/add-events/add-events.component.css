@@ -1,0 +1,36 @@
+main{
+    background-color: black;
+    height: 100vh;
+}
+.formCard{
+    width: 80%;
+    margin: 0 auto;
+    top: 20%;
+    position: absolute;
+    left: 10%;
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22) !important;
+
+}
+
+
+
+mat-form-field{
+    width: 100%;
+}
+
+.submitEvent{
+    margin-left: 10px;
+}
+
+.timeField{
+    width:50%;
+    margin:0 auto;
+}
+.buttons,mat-spinner{
+    margin:0 auto;
+}
+
+.buttons a{ 
+    color: #fff;
+    text-decoration: none;
+}

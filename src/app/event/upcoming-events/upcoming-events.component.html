@@ -1,0 +1,114 @@
+<section id="upcomingEvents">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <div class="wrapperEvent">
+          <div class="upEvntHeading main">
+            <!-- <h1>Upcomin<span>G</span> Program<span>S</span></h1> -->
+            <h1>PAST <span>PROGRAMS</span></h1>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-7 col-sm-10">
+        <div class="event-holder">
+          <owl-carousel-o [options]="customOptions">
+            <ng-container>
+              <ng-template carouselSlide>
+                <mat-card>
+                  <div class="imageHolder">
+                    <img [src]="images" />
+                  </div>
+                  <div class="overlay"></div>
+                  <div class="text-holder">
+                    <div class="headings-one">
+                      <h1>Computer Vision, Machine & Deep Learning</h1>
+                      <!-- <span id="author">by {{event.author}} -> View profile</span> -->
+                      <hr />
+                    </div>
+                    <div class="program-details">
+                      <p>Duration : 4 Week</p>
+                      <p>Mode : Online</p>
+                      <p>
+                        Rating : <fa-icon [icon]="faCoffee"></fa-icon>
+                        <fa-icon [icon]="faCoffee"></fa-icon>
+                        <fa-icon [icon]="faCoffee"></fa-icon>
+                        <fa-icon [icon]="faCoffee"></fa-icon>
+                        <fa-icon [icon]="faHalfStar"></fa-icon>
+                        <span style="font-size: 8px">(18)</span>
+                      </p>
+                      <!-- <p>Time : {{event.time}}</p> -->
+                    </div>
+                    <span class="pull-right edits" *ngIf="userLoggedIn && userRole === 'admin'">
+                      <button mat-button color="primary">
+                        <a [routerLink]="['/create', event.id]">EDIT</a>
+                      </button>
+                      <button mat-button color="warn" (click)="onDelete(event.id)">
+                        DELETE
+                      </button>
+                    </span>
+                  </div>
+                  <a class="viewmore ng-view" [routerLink]="['/programs']">View More <span>-></span></a>
+                </mat-card>
+              </ng-template>
+            </ng-container>
+          </owl-carousel-o>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="enrollment-section">
+          <h4>Enroll to get notified on similar Programs</h4>
+          <main *ngIf="!isSuccess">
+            <button *ngIf="!isenroll" class="home-btn enrollButton" type="button" (click)="isEnroll()">
+              Enroll
+            </button>
+            <div class="col-lg-12">
+              <div class="container form-holder" *ngIf="isenroll">
+                <form (submit)="onEnrollSubmit(postForm)" #postForm="ngForm">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <mat-form-field class="" appearance="outline">
+                        <mat-label>Full name</mat-label>
+                        <input type="text" name="name" matInput placeholder="" value="" ngModel #name="ngModel"
+                          required />
+                      </mat-form-field>
+                    </div>
+                    <div class="col-lg-6">
+                      <mat-form-field class="" appearance="outline">
+                        <mat-label>Email</mat-label>
+                        <input type="email" name="email" matInput placeholder="" value="" ngModel #name="ngModel"
+                          required />
+                      </mat-form-field>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <mat-form-field class="" appearance="outline">
+                        <mat-label>Mobile number</mat-label>
+                        <input type="text" name="number" matInput placeholder="" value="" ngModel #name="ngModel"
+                          required />
+                      </mat-form-field>
+                    </div>
+                  </div>
+                  <div class="buttons">
+                    <button class="home-btn" type="submit">Submit</button>
+                    <button class="home-btn margin-left" type="button" (click)="isEnroll()">
+                      Cancel
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </main>
+          <div class="col-md-12" *ngIf="isSuccess">
+            <div class="success_message_holder">
+              <div class="holder">
+                <fa-icon [icon]="faCheckCircle" class="check"></fa-icon>
+                <h5>Thank you for enrolling</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

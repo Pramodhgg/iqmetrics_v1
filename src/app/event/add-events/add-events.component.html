@@ -1,0 +1,52 @@
+<!-- <div class="wrapper"> -->
+    <main>
+    <app-navbar></app-navbar> 
+    <mat-card class="formCard">
+        <mat-spinner *ngIf="isLoading"></mat-spinner>
+        <form (submit)="onSaveEvent(postForm)" #postForm="ngForm" *ngIf="!isLoading">
+    <div class="row">
+        <div class="col-md-6">
+            <mat-form-field appearance="outline">
+                <mat-label>Enter Title</mat-label>
+                <input matInput type="text" name="title" [ngModel]="event?.title" #title="ngModel" required>
+            </mat-form-field>
+        </div>
+        <div class="col-md-6">
+            <mat-form-field appearance="outline">
+                <mat-label>Name of author</mat-label>
+                <input matInput type="text" name="author" [ngModel]="event?.author" #author="ngModel">
+            </mat-form-field>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <mat-form-field appearance="outline">
+                <mat-label>Duration</mat-label>
+                <input matInput type="text" name="duration" [ngModel]="event?.duration" #duration="ngModel">
+            </mat-form-field>
+        </div>
+        <div class="col-md-6">
+            <mat-form-field appearance="outline">
+                <mat-label>starts from</mat-label>
+                <input matInput type="date" name="startsFrom" [ngModel]="event?.startsFrom" #satrtsFrom="ngModel">
+            </mat-form-field>
+        </div>
+    </div>
+    <div class="row">
+        <mat-form-field class="timeField" appearance="outline">
+            <mat-label>Time</mat-label>
+            <input matInput type="time" name="time" [ngModel]="event?.time" #Time="ngModel">
+        </mat-form-field>
+    </div>
+   <div class="row">
+       <div class="buttons">
+        <button class="" type="cancel" mat-raised-button color="primary"><a (click)="cancel()">cancel</a></button>
+        <button class="submitEvent" type="submit" mat-raised-button color="primary"><a>Submit</a></button>
+       </div>
+     
+   </div>
+  
+</form>
+</mat-card>
+</main>
+<!-- </div> -->

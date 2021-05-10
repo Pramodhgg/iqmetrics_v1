@@ -1,0 +1,45 @@
+<section>
+  <app-navbar-for-pages></app-navbar-for-pages>
+
+  <div class="main">
+    <h1>Enrolled<span>s</span> detail<span>s</span></h1>
+    <span class="xlButton"
+      ><a matInput (click)="downloadXlSheet()" color="primary"
+        >Download XLS</a
+      ></span
+    >
+    <span class="search">
+      <span class="material-icons">search</span>
+      <input
+        type="text"
+        name="name"
+        placeholder="enter name to search"
+        [(ngModel)]="name"
+        (ngModelChange)="search()"
+      />
+    </span>
+    <mat-spinner *ngIf="isLoading"></mat-spinner>
+    <table *ngIf="!isLoading" class="table table-border">
+      <thead>
+        <tr>
+          <th id="name">Name</th>
+          <th id="email">Email</th>
+          <th id="number">Number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let enrolled of enrolledDetailsList">
+          <td><input type="text" name="name" value="{{ enrolled.name }}" /></td>
+          <td>
+            <input type="email" name="email" value="{{ enrolled.email }}" />
+          </td>
+
+          <td>
+            <input type="text" name="number" value="{{ enrolled.number }}" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- <mat-paginator *ngIf="queries.length>0" [length]="totalQueries" [pageSize]="queriesPerPage" [pageSizeOptions]="[3, 10, 25, 100]" (page)="onChangedPage($event)"></mat-paginator> -->
+  </div>
+</section>

@@ -1,0 +1,6 @@
+{
+    "editor.formatOnSave": true,
+    "editor.tabCompletion": "on",
+    "javascript.suggest.completeFunctionCalls": true,
+    "typescript.suggest.completeFunctionCalls": true
+}

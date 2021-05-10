@@ -1,0 +1,38 @@
+<section>
+
+    <app-navbar-for-pages></app-navbar-for-pages>
+
+
+<div class="main">
+    <h1>Querie<span>S</span></h1>
+    <span class="xlButton"><a matInput (click)="downloadXlSheet()" color="primary">Download XLS</a></span>
+    <span class="search">
+        <span class="material-icons">search</span>
+        <input type="text" name="name" placeholder="enter name to search" [(ngModel)]="name" (ngModelChange)="search()">
+    </span>
+    <mat-spinner *ngIf="isLoading"></mat-spinner>
+    <table *ngIf="!isLoading" class="table table-border">
+    <thead>
+        <tr>
+            <th id="name" >Name</th>
+            <th id="email">Email</th>
+            <th id="number">Number</th>
+            <th id="designation">Designation</th>
+            <th id="message">Message</th>
+        </tr>
+    </thead>
+        <tbody>
+            <tr *ngFor="let query of queries">
+                <td><input type="text" name="name" value="{{query.name}}"></td>
+                <td><input type="email" name="email" value="{{query.email}}"></td>
+
+                <td><input type="text" name="number" value="{{query.number}}"></td>
+                <td><input type="text" name="role" value="{{query.designation}}"></td>
+                <td><textarea name="role" rows="4" value="{{query.message}}"></textarea></td>
+            </tr>
+        </tbody>
+    
+</table>
+<mat-paginator *ngIf="queries.length>0" [length]="totalQueries" [pageSize]="queriesPerPage" [pageSizeOptions]="[3, 10, 25, 100]" (page)="onChangedPage($event)"></mat-paginator>
+</div>
+</section>
