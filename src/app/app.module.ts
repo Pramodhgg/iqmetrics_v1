@@ -38,7 +38,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ClientsComponent } from './clients/clients.component';
 import { ConsultancyComponent } from './consultancy/consultancy.component'
 import { NavForConsultancyComponent } from './navbar/nav-for-consultancy/navconsultancy.component'
-import { HeaderComponent } from './home/header/header.component'
+import { HeaderComponent } from './header/header.component'
 
 
 @NgModule({
